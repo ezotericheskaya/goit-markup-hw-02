@@ -1,0 +1,22 @@
+ul {
+  list-style-type: none;
+}
+
+body {
+    background-color: #ffffff;
+    color: #212121;
+}
+
+.links-nav:hover, :focus {
+    color: #2196F3;
+
+}
+
+.contacts-nav :hover, :focus {
+    color: #2196F3;
+}
+
+
+
+
+* цвет текста - #212121 . #757575  при нажатии - #2196F3*/
