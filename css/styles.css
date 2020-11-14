@@ -1,7 +1,7 @@
 :root {
   --primery-text-color: #757575;
   --tittle-text-color: #212121;
-  --accent-color: #ffffff;
+  --accent-white-color: #ffffff;
   --backgr-color-botton: #f5f4fa;
   --accent-button-color: #2196f3;
 }
@@ -38,11 +38,15 @@ a {
 }
 
 .button.primary {
-  color: var(--accent-color);
+  color: var(--accent-white-color);
   background-color: var(--accent-button-color);
 }
 
 .button.secondary {
   color: var(--tittle-text-color);
   background-color: var(--backgr-color-botton);
+}
+
+.current-link {
+  color: var(--accent-button-color);
 }
