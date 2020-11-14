@@ -10,10 +10,14 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .body {
   background-color: #ffffff;
   color: #212121;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
@@ -21,54 +25,6 @@ ul {
 
 a {
   text-decoration: none;
-}
-
-.contacts-nav :hover,
-:focus {
-  color: #2196f3;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.features-tittle {
-  color: var(--tittle-text-color);
-}
-
-.text {
-  color: var(--primery-text-color);
-}
-
-.button {
-  color: var(--tittle-text-color);
-  background-color: var(--backgr-color-botton);
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.button.primary {
-  color: var(--accent-white-color);
-  background-color: var(--accent-button-color);
-}
-
-.button.secondary {
-  color: var(--tittle-text-color);
-  background-color: var(--backgr-color-botton);
-}
-
-.button:hover,
-:focus {
-  background-color: #2196f3;
-  color: #ffffff;
-}
-
-.current-link {
-  color: var(--accent-button-color);
 }
 
 .web-logo {
@@ -89,14 +45,58 @@ a {
   letter-spacing: 0.03em;
 }
 
+.links :hover,
+:focus {
+  color: #2196f3;
+}
+
+.contacts-nav :hover,
+:focus {
+  color: #2196f3;
+}
+
+.features-tittle {
+  color: var(--tittle-text-color);
+}
+
+.text {
+  color: var(--primery-text-color);
+}
+
+.button {
+  color: var(--tittle-text-color);
+  background-color: var(--backgr-color-botton);
+}
+
+.button:hover,
+:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.current-link {
+  color: var(--accent-button-color);
+}
+
 .section-hero {
   background-color: #2f303a;
   color: var(--accent-white-color);
   height: 50 px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button:hover,
 .button:focus {
   background-color: #2196f3;
   color: #ffffff;
+}
+
+.button-primary {
+  background-color: var(--accent-button-color);
+  color: var(--accent-white-color);
 }
