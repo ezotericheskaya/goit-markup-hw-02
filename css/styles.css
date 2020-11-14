@@ -10,9 +10,13 @@ ul {
   list-style-type: none;
 }
 
-body {
+.body {
   background-color: #ffffff;
   color: #212121;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 a {
@@ -22,6 +26,10 @@ a {
 .contacts-nav :hover,
 :focus {
   color: #2196f3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .features-tittle {
@@ -35,6 +43,12 @@ a {
 .button {
   color: var(--tittle-text-color);
   background-color: var(--backgr-color-botton);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .button.primary {
@@ -48,7 +62,7 @@ a {
 }
 
 .button:hover,
-.button:focus {
+:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
@@ -59,10 +73,20 @@ a {
 
 .web-logo {
   color: #2196f3;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
 .studio-logo {
   color: #000000;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
 .section-hero {
