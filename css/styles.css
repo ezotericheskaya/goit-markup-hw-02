@@ -58,3 +58,15 @@ a {
 .studio-logo {
   color: #000000;
 }
+
+.section-hero {
+  background-color: #2f303a;
+  color: var(--accent-white-color);
+  height: 50 px;
+}
+
+.button:hover,
+:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
