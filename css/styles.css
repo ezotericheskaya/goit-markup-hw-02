@@ -3,20 +3,29 @@ ul {
 }
 
 body {
-    background-color: #ffffff;
-    color: #212121;
+  background-color: #ffffff;
+  color: #212121;
 }
 
-.links-nav:hover, :focus {
-    color: #2196F3;
-
+a {
+  text-decoration: none;
 }
 
-.contacts-nav :hover, :focus {
-    color: #2196F3;
+.contacts-nav :hover,
+:focus {
+  color: #2196f3;
 }
 
-
-
-
-* цвет текста - #212121 . #757575  при нажатии - #2196F3*/
+.features-tittle
+  .text
+  *
+  цвет
+  текста
+  -
+  #212121
+  .
+  #757575
+  при
+  нажатии
+  -
+  #2196F3*/;
