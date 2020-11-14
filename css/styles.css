@@ -50,3 +50,11 @@ a {
 .current-link {
   color: var(--accent-button-color);
 }
+
+.web-logo {
+  color: #2196f3;
+}
+
+.studio-logo {
+  color: #000000;
+}
