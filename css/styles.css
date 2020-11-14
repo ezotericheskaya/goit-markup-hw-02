@@ -1,3 +1,11 @@
+:root {
+  --primery-text-color: #757575;
+  --tittle-text-color: #212121;
+  --accent-color: #ffffff;
+  --backgr-color-botton: #f5f4fa;
+  --accent-button-color: #2196f3;
+}
+
 ul {
   list-style-type: none;
 }
@@ -16,16 +24,25 @@ a {
   color: #2196f3;
 }
 
-.features-tittle
-  .text
-  *
-  цвет
-  текста
-  -
-  #212121
-  .
-  #757575
-  при
-  нажатии
-  -
-  #2196F3*/;
+.features-tittle {
+  color: var(--tittle-text-color);
+}
+
+.text {
+  color: var(--primery-text-color);
+}
+
+.button {
+  color: var(--tittle-text-color);
+  background-color: var(--backgr-color-botton);
+}
+
+.button.primary {
+  color: var(--accent-color);
+  background-color: var(--accent-button-color);
+}
+
+.button.secondary {
+  color: var(--tittle-text-color);
+  background-color: var(--backgr-color-botton);
+}
