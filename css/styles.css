@@ -17,7 +17,7 @@ a {
 .body {
   background-color: #ffffff;
   color: #212121;
-  font-family: Roboto sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
@@ -45,14 +45,44 @@ a {
   letter-spacing: 0.03em;
 }
 
-.links :hover,
-:focus {
+.links .nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.links .nav-link:hover,
+.links .nav-link:focus {
   color: #2196f3;
 }
 
-.contacts-nav :hover,
-:focus {
+.contacts-nav .contact-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.contacts-nav .contact-link:hover,
+.contacts-nav .contact-link:focus {
   color: #2196f3;
+}
+
+.hero-tittle {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .features-tittle {
@@ -68,26 +98,18 @@ a {
   background-color: var(--backgr-color-botton);
 }
 
-.button:hover,
-:focus {
-  background-color: #2196f3;
-  color: #ffffff;
-}
-
 .current-link {
   color: var(--accent-button-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .section-hero {
   background-color: #2f303a;
   color: var(--accent-white-color);
-  height: 50 px;
-  font-weight: 700;
-  font-size: 44px;
-  line-height: 1.4;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 
 .button:hover,
