@@ -16,7 +16,7 @@ a {
 
 body {
   background-color: #ffffff;
-  color: #212121;
+  color: var(--tittle-text-color);
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
@@ -28,7 +28,7 @@ a {
 }
 
 .web-logo {
-  color: #2196f3;
+  color: var(--accent-button-color);
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -51,13 +51,12 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
-  color: #212121;
+  color: var(--tittle-text-color);
 }
 
 .links .nav-link:hover,
 .links .nav-link:focus {
-  color: #2196f3;
+  color: var(--accent-button-color);
 }
 
 .contacts-nav .contact-link {
@@ -66,12 +65,17 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--primery-text-color);
 }
 
 .contacts-nav .contact-link:hover,
 .contacts-nav .contact-link:focus {
-  color: #2196f3;
+  color: var(--accent-button-color);
+}
+
+.section-hero {
+  background-color: #2f303a;
+  color: var(--accent-white-color);
 }
 
 .hero-tittle {
@@ -94,6 +98,17 @@ a {
 }
 
 .button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--tittle-text-color);
+}
+
+.button {
   color: var(--tittle-text-color);
   background-color: var(--backgr-color-botton);
 }
@@ -107,18 +122,57 @@ a {
   letter-spacing: 0.02em;
 }
 
-.section-hero {
-  background-color: #2f303a;
-  color: var(--accent-white-color);
-}
-
 .button:hover,
 .button:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-button-color);
   color: #ffffff;
 }
 
 .button-primary {
   background-color: var(--accent-button-color);
   color: var(--accent-white-color);
+}
+
+.team {
+  background-color: var(--backgr-color-botton);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.web-footer {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--accent-button-color);
+}
+
+.studio-footer {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--accent-white-color);
+}
+
+.footer-adress {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--accent-white-color);
+}
+
+.contacts-footer {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
