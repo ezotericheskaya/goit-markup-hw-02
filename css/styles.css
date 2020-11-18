@@ -46,7 +46,6 @@ a {
 }
 
 .links .nav-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -60,7 +59,6 @@ a {
 }
 
 .contacts-nav .contact-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -79,7 +77,6 @@ a {
 }
 
 .hero-tittle {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -90,7 +87,6 @@ a {
 }
 
 .features-tittle {
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -99,8 +95,6 @@ a {
 }
 
 .text {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -109,8 +103,6 @@ a {
 }
 
 .button {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -126,7 +118,6 @@ a {
 
 .current-link {
   color: var(--accent-button-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -148,7 +139,6 @@ a {
   background-color: var(--backgr-color-botton);
 }
 .text-team {
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
@@ -157,8 +147,6 @@ a {
 }
 
 .tittles {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -171,15 +159,6 @@ a {
   background-color: #2f303a;
 }
 
-.web-footer {
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  color: var(--accent-button-color);
-}
-
 .studio-footer {
   font-family: Raleway;
   font-weight: bold;
@@ -190,7 +169,6 @@ a {
 }
 
 .footer-adress {
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -199,7 +177,6 @@ a {
 }
 
 .contacts-footer {
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -208,7 +185,6 @@ a {
 }
 
 .features-portfolio {
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -216,7 +192,6 @@ a {
   color: var(--tittle-text-color);
 }
 .text-portfolio {
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
