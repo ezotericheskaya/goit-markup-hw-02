@@ -30,7 +30,7 @@ a {
 .web-logo {
   color: var(--accent-button-color);
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -39,7 +39,7 @@ a {
 .studio-logo {
   color: #000000;
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -87,7 +87,7 @@ a {
 }
 
 .features-tittle {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -147,7 +147,7 @@ a {
 }
 
 .tittles {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -160,8 +160,8 @@ a {
 }
 
 .studio-footer {
-  font-family: Raleway;
-  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -169,7 +169,8 @@ a {
 }
 
 .footer-adress {
-  font-weight: normal;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -177,7 +178,8 @@ a {
 }
 
 .contacts-footer {
-  font-weight: normal;
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -185,7 +187,7 @@ a {
 }
 
 .features-portfolio {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
